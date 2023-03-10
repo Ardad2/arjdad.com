@@ -32,7 +32,7 @@ export default function Contact() {
             Contact Me
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-          You can contact me on LinkedIn or send me an email. I'll try to respond as soon as possible, hopefully within 24 hours.
+          You can contact me on <a href="https://www.linkedin.com/in/arjundadhwal" className="text-white">LinkedIn</a> or <a href="mailto:adadhwal@asu.edu" className="text-white">send me an email</a> . I'll try to respond as soon as possible, hopefully within 24 hours. 
           </p>
         </div>
         </div>

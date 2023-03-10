@@ -49,21 +49,12 @@ export const projects = [
   },
 ];
 
-export const skills1 = [
-  "JavaScript",
-  "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
-];
-
 export const skills = [
   {
   languages: ["Java", "C++", "C", "JavaScript", "Python", "Swift", "Dart", "Scheme", "Prolog", "HTML", "CSS", "SQL"],
   frameworks: ["React", "Redux", "Express", "JavaFX", "React Native", "Node", "Android Studio", "Flutter", "IOS Development"],
   tools: ["Postman", "Git"],
-  databasetech: ["MySQL", "MongoDB", "Firebase", "SQLite"],
+  databasetech: ["SQL", "MySQL", "MongoDB", "Firebase", "SQLite"],
   concepts: ["Software Development", "Data Structures and Algorithms", "Full Stack Web Development", "Mobile Application Development", "Information Assurance", "Theoretical Computer Science", "Cloud Computing", "Aritificial Intelligence"],
   others: ["Typing"]
   },
