@@ -26,8 +26,8 @@ export default function Skills() {
 <div className="flex lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           <p>Languages: </p>
           {skill.languages.map((languages) => (
-            <div key={languages} className="p-2 sm:w-1/4 w-full">
-              <div className="bg-gray-800 rounded flex p-4 h-full items-center">
+            <div key={languages} className="p-2 sm:w-1/4 w- full">
+              <div className="bg-gray-800  flex p-2 h-full">
                 <span className="title-font font-medium text-white">
                   {languages}
                 </span>
@@ -52,7 +52,7 @@ export default function Skills() {
         <div className="flex lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
         <p>Tools: </p>
           {skill.tools.map((tools) => (
-            <div key={tools} className="p-2 sm:w-1/2 w-full">
+            <div key={tools} className="p-2 ">
               <div className="bg-gray-800 rounded flex p-4 h-full items-center">
                 <span className="title-font font-medium text-white">
                   {tools}
@@ -65,8 +65,8 @@ export default function Skills() {
         <div className="flex lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
         <p>Database Tech: </p>
           {skill.databasetech.map((databasetech) => (
-            <div key={databasetech} className="p-2 sm:w-1/2 w-full">
-              <div className="bg-gray-800 rounded flex p-4 h-full items-center">
+            <div key={databasetech} className="p-2 ">
+              <div className="bg-gray-800 rounded flex p-4 items-center">
                 <span className="title-font font-medium text-white">
                   {databasetech}
                 </span>
@@ -78,8 +78,8 @@ export default function Skills() {
         <div className="flex lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
         <p>Concepts: </p>
           {skill.concepts.map((concepts) => (
-            <div key={concepts} className="p-2 sm:w-1/2 w-full">
-              <div className="bg-gray-800 rounded flex p-4 h-full items-center">
+            <div key={concepts} className="p-2 sm:w-1/2 ">
+              <div className="bg-gray-800 rounded flex p-4 items-center">
                 <span className="title-font font-medium text-white">
                   {concepts}
                 </span>
@@ -91,7 +91,7 @@ export default function Skills() {
         <div className="flex lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
         <p>Others: </p>
           {skill.others.map((others) => (
-            <div key={others} className="p-2 sm:w-1/2 w-full">
+            <div key={others} className="p-2">
               <div className="bg-gray-800 rounded flex p-4 h-full items-center">
                 <span className="title-font font-medium text-white">
                   {others}

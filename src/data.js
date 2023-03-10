@@ -60,7 +60,7 @@ export const skills1 = [
 
 export const skills = [
   {
-  languages: ["Java", "C++", "C", "JavaScrpt", "Python", "Swift", "Dart", "Scheme", "Prolog", "HTML", "CSS", "SQL"],
+  languages: ["Java", "C++", "C", "JavaScript", "Python", "Swift", "Dart", "Scheme", "Prolog", "HTML", "CSS", "SQL"],
   frameworks: ["React", "Redux", "Express", "JavaFX", "React Native", "Node", "Android Studio", "Flutter", "IOS Development"],
   tools: ["Postman", "Git"],
   databasetech: ["MySQL", "MongoDB", "Firebase", "SQLite"],
