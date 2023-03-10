@@ -66,7 +66,7 @@ export const testimonials = [
   },
 ];
 
-export const skills = [
+export const skills1 = [
   "JavaScript",
   "React",
   "Next.js",
@@ -75,7 +75,7 @@ export const skills = [
   "Material UI",
 ];
 
-export const skills2 = [
+export const skills = [
   {
   languages: ["Java", "C++", "C", "JavaScrpt", "Python", "Swift", "Dart", "Scheme", "Prolog", "HTML", "CSS", "SQL"],
   frameworks: ["React", "Redux", "Express", "JavaFX", "React Native", "Node", "Android Studio", "Flutter", "IOS Development"],
@@ -84,9 +84,4 @@ export const skills2 = [
   concepts: ["Software Development", "Data Structures and Algorithms", "Full Stack Web Development", "Mobile Application Development", "Information Assurance", "Theoretical Computer Science", "Cloud Computing", "Aritificial Intelligence"],
   others: ["Typing"]
   },
-];
-
-export const skills3 = [
-    ["Languages", "Frameworks", "Tools", "Database Tech", "Concepts", "Others"],
-    ["Java", "React", "Postman", "MySQL", "Software Development", "Typing"]
 ];

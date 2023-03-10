@@ -1,22 +1,33 @@
 import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 import React from "react";
-import { skills, skills2, skills3, testimonials} from "../data";
+import {skills} from "../data";
 
 
 export default function Skills() {
   return (
     <section id="skills" className="text-white-900 bg-gray-900 body-font">
+      <div className="container px-5 py-10 mx-auto text-center lg:px-40">
+        <div className="text-center mb-20">
+          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
+            Skills
+          </h1>
+          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+          </p>
+        </div>
+
+
+      </div>
 <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
 
 
-          {skills2.map((skill) => (
+          {skills.map((skill) => (
 
 <div>
-<div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+<div className="flex lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           <p>Languages: </p>
           {skill.languages.map((languages) => (
             <div key={languages} className="p-2 sm:w-1/4 w-full">
-              <div className="bg-gray-800 rounded flex p-4 h-12 items-center">
+              <div className="bg-gray-800 rounded flex p-4 h-full items-center">
                 <span className="title-font font-medium text-white">
                   {languages}
                 </span>
@@ -25,7 +36,7 @@ export default function Skills() {
           ))}
         </div>
 
-        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+        <div className="flex lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
         <p>Frameworks: </p>
           {skill.frameworks.map((frameworks) => (
             <div key={frameworks} className="p-2 sm:w-1/2 w-full">
@@ -38,7 +49,7 @@ export default function Skills() {
           ))}
         </div>
 
-        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+        <div className="flex lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
         <p>Tools: </p>
           {skill.tools.map((tools) => (
             <div key={tools} className="p-2 sm:w-1/2 w-full">
@@ -51,7 +62,7 @@ export default function Skills() {
           ))}
         </div>
 
-        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+        <div className="flex lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
         <p>Database Tech: </p>
           {skill.databasetech.map((databasetech) => (
             <div key={databasetech} className="p-2 sm:w-1/2 w-full">
@@ -64,7 +75,7 @@ export default function Skills() {
           ))}
         </div>
 
-        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+        <div className="flex lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
         <p>Concepts: </p>
           {skill.concepts.map((concepts) => (
             <div key={concepts} className="p-2 sm:w-1/2 w-full">
@@ -77,7 +88,7 @@ export default function Skills() {
           ))}
         </div>
 
-        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+        <div className="flex lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
         <p>Others: </p>
           {skill.others.map((others) => (
             <div key={others} className="p-2 sm:w-1/2 w-full">
@@ -105,45 +116,6 @@ export default function Skills() {
 
           </div>
 
-
-      <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-        <div className="text-center mb-20">
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
-            Skills
-          </h1>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-          </p>
-        </div>
-
-        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-          {skills.map((skill) => (
-            <div key={skill} className="p-2 sm:w-1/2 w-full">
-              <div className="bg-gray-800 rounded flex p-4 h-full items-center">
-                <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
-                <span className="title-font font-medium text-white">
-                  {skill}
-                </span>
-              </div>
-            </div>
-          ))}
-        </div>
-
-        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-          {skills.map((skill) => (
-            <div key={skill} className="p-2 sm:w-1/2 w-full">
-              <div className="bg-gray-800 rounded flex p-4 h-full items-center">
-                <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
-                <span className="title-font font-medium text-white">
-                  {skill}
-                </span>
-              </div>
-            </div>
-          ))}
-        </div>
-
-
-
-      </div>
     </section>
   );
 }
