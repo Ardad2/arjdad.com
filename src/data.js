@@ -83,5 +83,18 @@ export const skills2 = [
   databasetech: ["MySQL"],
   concepts: ["Software Development"],
   others: ["Typing"]
-  }
+  },
+  {
+    languages: ["Java"],
+    frameworks: ["React"],
+    tools: ["Postman"],
+    databasetech: ["MySQL"],
+    concepts: ["Software Development"],
+    others: ["Typing"]
+    }
+];
+
+export const skills3 = [
+    ["Languages", "Frameworks", "Tools", "Database Tech", "Concepts", "Others"],
+    ["Java", "React", "Postman", "MySQL", "Software Development", "Typing"]
 ];
