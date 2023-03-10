@@ -13,9 +13,9 @@ export default function About() {
           I'm a junior majoring in Computer Science at Arizona State University. I'm passionate about Software Development and enjoy learning more about my field by developing applications that solve real world problems.
           </p>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 border-solid border-grey-900">
           <img
-            className="object-cover object-center rounded"
+            className="shadow-lg rounded-full max-w-full h-auto align-middle border-none"
             alt="Arjun"
             src="https://arjdad.com/img/37658489.jpeg"
           />
