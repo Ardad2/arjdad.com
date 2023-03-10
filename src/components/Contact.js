@@ -1,4 +1,6 @@
 import React from "react";
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
+
 
 export default function Contact() {
   const [name, setName] = React.useState("");
@@ -35,6 +37,31 @@ export default function Contact() {
           You can contact me on <a href="https://www.linkedin.com/in/arjundadhwal" className="text-white">LinkedIn</a> or <a href="mailto:adadhwal@asu.edu" className="text-white">send me an email</a> . I'll try to respond as soon as possible, hopefully within 24 hours. 
           </p>
         </div>
+        <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-black-700	flex flex-wrap items-center text-base justify-center">
+        <a href="#skills" className="mr-5 hover:text-white">
+        <FaFacebook />
+          </a>
+          <a href="#projects" className="mr-5 hover:text-white">
+          <FaTwitter />
+          </a>
+          <a
+          href="#contact"
+          className="mr-5 hover:text-white">
+           <FaInstagram />
+        </a>
+        <a
+          href=""
+          className="mr-5 hover:text-white">
+           <FaLinkedin />
+        </a>
+        <a
+          href=""
+          className="mr-5 hover:text-white">
+           <FaGithub />
+        </a>
+        </nav>
+      </div>
         </div>
         </section>
   );
