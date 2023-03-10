@@ -28,7 +28,7 @@ export const projects = [
     subtitle: "HTML CSS JavaScript",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
+    image: "https://arjdad.com/img/Website.PNG",
     link: "https://arjdad.com/img/Website.PNG",
   },
   {
@@ -73,4 +73,15 @@ export const skills = [
   "Node",
   "GraphQL",
   "Material UI",
+];
+
+export const skills2 = [
+  {
+  languages: ["Java"],
+  frameworks: ["React"],
+  tools: ["Postman"],
+  databasetech: ["MySQL"],
+  concepts: ["Software Development"],
+  others: ["Typing"]
+  }
 ];
