@@ -14,7 +14,6 @@ export default function Skills() {
             Skills
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            These are my skills
           </p>
         </div>
 
