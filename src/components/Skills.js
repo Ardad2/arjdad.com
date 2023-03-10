@@ -13,9 +13,10 @@ export default function Skills() {
 
 <div>
 <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+          <p>Languages: </p>
           {skill.languages.map((languages) => (
-            <div key={languages} className="p-2 sm:w-1/2 w-full">
-              <div className="bg-gray-800 rounded flex p-4 h-full items-center">
+            <div key={languages} className="p-2 sm:w-1/4 w-full">
+              <div className="bg-gray-800 rounded flex p-4 h-12 items-center">
                 <span className="title-font font-medium text-white">
                   {languages}
                 </span>
@@ -25,6 +26,7 @@ export default function Skills() {
         </div>
 
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+        <p>Frameworks: </p>
           {skill.frameworks.map((frameworks) => (
             <div key={frameworks} className="p-2 sm:w-1/2 w-full">
               <div className="bg-gray-800 rounded flex p-4 h-full items-center">
@@ -37,6 +39,7 @@ export default function Skills() {
         </div>
 
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+        <p>Tools: </p>
           {skill.tools.map((tools) => (
             <div key={tools} className="p-2 sm:w-1/2 w-full">
               <div className="bg-gray-800 rounded flex p-4 h-full items-center">
@@ -49,6 +52,7 @@ export default function Skills() {
         </div>
 
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+        <p>Database Tech: </p>
           {skill.databasetech.map((databasetech) => (
             <div key={databasetech} className="p-2 sm:w-1/2 w-full">
               <div className="bg-gray-800 rounded flex p-4 h-full items-center">
@@ -61,6 +65,7 @@ export default function Skills() {
         </div>
 
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+        <p>Concepts: </p>
           {skill.concepts.map((concepts) => (
             <div key={concepts} className="p-2 sm:w-1/2 w-full">
               <div className="bg-gray-800 rounded flex p-4 h-full items-center">
@@ -73,6 +78,7 @@ export default function Skills() {
         </div>
 
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+        <p>Others: </p>
           {skill.others.map((others) => (
             <div key={others} className="p-2 sm:w-1/2 w-full">
               <div className="bg-gray-800 rounded flex p-4 h-full items-center">
