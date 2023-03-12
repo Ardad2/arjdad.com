@@ -25,7 +25,7 @@ export default function Skills() {
           {skills.map((skill) => (
 
 <div>
-<div className="flex lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+<div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           <p>Languages: </p>
           {skill.languages.map((languages) => (
             <div key={languages} className="p-2 ">
