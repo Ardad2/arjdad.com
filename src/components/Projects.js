@@ -118,7 +118,7 @@ export default function Projects() {
 
 
         
-        return <div className="flex flex-wrap -m-4">
+        <div className="flex flex-wrap -m-4">
         {displayProjects(display)}
 
         </div>
