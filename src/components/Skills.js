@@ -38,7 +38,7 @@ export default function Skills() {
           ))}
         </div>
 
-        <div className="flex lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
         <p>Frameworks: </p>
           {skill.frameworks.map((frameworks) => (
             <div key={frameworks} className="p-2 sm:">
@@ -51,7 +51,7 @@ export default function Skills() {
           ))}
         </div>
 
-        <div className="flex lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
         <p>Tools: </p>
           {skill.tools.map((tools) => (
             <div key={tools} className="p-2 sm:">
@@ -64,7 +64,7 @@ export default function Skills() {
           ))}
         </div>
 
-        <div className="flex lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
         <p>Database Tech: </p>
           {skill.databasetech.map((databasetech) => (
             <div key={databasetech} className="p-2 ">
@@ -77,11 +77,11 @@ export default function Skills() {
           ))}
         </div>
 
-        <div className="flex lg:w-4/5 sm:mx-auto sm:mb-2 -mx-">
+        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-">
         <p>Concepts: </p>
           {skill.concepts.map((concepts) => (
             <div key={concepts} className="p-2">
-              <div className="bg-gray-800 rounded flex p-2 h-full">
+              <div className="bg-gray-800  flex p-2 h-full">
                 <span className="title-font font-medium text-white">
                   {concepts}
                 </span>
@@ -90,11 +90,11 @@ export default function Skills() {
           ))}
         </div>
 
-        <div className="flex lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
         <p>Others: </p>
           {skill.others.map((others) => (
             <div key={others} className="p-2">
-              <div className="bg-gray-800 rounded flex p-2 h-full items-center">
+              <div className="bg-gray-800  flex p-2 h-full">
                 <span className="title-font font-medium text-white">
                   {others}
                 </span>
