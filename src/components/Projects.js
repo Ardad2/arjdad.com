@@ -9,7 +9,9 @@ export default function Projects() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-gray">
             Select Projects
           </h1>
-          <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 	flex flex-wrap items-center text-base justify-center">
+
+          <div className="flex flex-row w-full">
+          <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4	flex flex-wrap items-center  text-gray justify-center">
         <a href="#skills" className="mr-5 hover:text-white">
         <p>Front End</p>
           </a>
@@ -32,6 +34,8 @@ export default function Projects() {
         <p>Show All</p>
         </a>
         </nav>
+
+        </div>
 
         </div>
 
