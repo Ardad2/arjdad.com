@@ -39,25 +39,25 @@ export default function Contact() {
         </div>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 	flex flex-wrap items-center text-base justify-center">
         <a href="#skills" className="mr-5 hover:text-white">
-        <FaFacebook />
+        <FaFacebook style={{fontSize: '25px'}} />
           </a>
           <a href="#projects" className="mr-5 hover:text-white">
-          <FaTwitter />
+          <FaTwitter style={{fontSize: '25px'}} />
           </a>
           <a
           href="#contact"
           className="mr-5 hover:text-white">
-           <FaInstagram />
+           <FaInstagram style={{fontSize: '25px'}} />
         </a>
         <a
           href=""
           className="mr-5 hover:text-white">
-           <FaLinkedin />
+           <FaLinkedin style={{fontSize: '25px'}} />
         </a>
         <a
           href=""
           className="mr-5 hover:text-white">
-           <FaGithub />
+           <FaGithub style={{fontSize: '25px'}} />
         </a>
         </nav>
         
