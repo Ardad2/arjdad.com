@@ -32,13 +32,12 @@ export default function Contact() {
         <div className="text-center mb-20">
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Contact Me
-          </h1>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+          </h1> 
+          <p className="mb-8 leading-relaxed text-grey">
           You can contact me on <a href="https://www.linkedin.com/in/arjundadhwal" className="text-white">LinkedIn</a> or <a href="mailto:adadhwal@asu.edu" className="text-white">send me an email</a> . I'll try to respond as soon as possible, hopefully within 24 hours. 
           </p>
         </div>
-        <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-black-700	flex flex-wrap items-center text-base justify-center">
+        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 	flex flex-wrap items-center text-base justify-center">
         <a href="#skills" className="mr-5 hover:text-white">
         <FaFacebook />
           </a>
@@ -61,8 +60,9 @@ export default function Contact() {
            <FaGithub />
         </a>
         </nav>
+        
       </div>
-        </div>
+
         </section>
   );
 }
