@@ -29,7 +29,7 @@ export default function Skills() {
           <p>Languages: </p>
           {skill.languages.map((languages) => (
             <div key={languages} className="p-2 ">
-              <div className="bg-gray-800  flex p-2 h-full">
+              <div className="bg-gray-800 rounded flex p-2 h-full">
                 <span className="title-font font-medium text-white">
                   {languages}
                 </span>
@@ -42,7 +42,7 @@ export default function Skills() {
         <p>Frameworks: </p>
           {skill.frameworks.map((frameworks) => (
             <div key={frameworks} className="p-2 sm:">
-              <div className="bg-gray-800  flex p-2 h-full">
+              <div className="bg-gray-800 rounded flex p-2 h-full">
                 <span className="title-font font-medium text-white">
                   {frameworks}
                 </span>
@@ -55,7 +55,7 @@ export default function Skills() {
         <p>Tools: </p>
           {skill.tools.map((tools) => (
             <div key={tools} className="p-2 sm:">
-              <div className="bg-gray-800  flex p-2 h-full">
+              <div className="bg-gray-800 rounded flex p-2 h-full">
                 <span className="title-font font-medium text-white">
                   {tools}
                 </span>
@@ -68,7 +68,7 @@ export default function Skills() {
         <p>Database Tech: </p>
           {skill.databasetech.map((databasetech) => (
             <div key={databasetech} className="p-2 ">
-              <div className="bg-gray-800  flex p-2 h-full">
+              <div className="bg-gray-800 rounded flex p-2 h-full">
                 <span className="title-font font-medium text-white">
                   {databasetech}
                 </span>
@@ -81,7 +81,7 @@ export default function Skills() {
         <p>Concepts: </p>
           {skill.concepts.map((concepts) => (
             <div key={concepts} className="p-2">
-              <div className="bg-gray-800  flex p-2 h-full">
+              <div className="bg-gray-800 rounded flex p-2 h-full">
                 <span className="title-font font-medium text-white">
                   {concepts}
                 </span>
@@ -94,7 +94,7 @@ export default function Skills() {
         <p>Others: </p>
           {skill.others.map((others) => (
             <div key={others} className="p-2">
-              <div className="bg-gray-800  flex p-2 h-full">
+              <div className="bg-gray-800 rounded flex p-2 h-full">
                 <span className="title-font font-medium text-white">
                   {others}
                 </span>
