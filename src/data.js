@@ -9,7 +9,7 @@ export const projects = [
   },
   {
     title: "Web Time Tracker Extension",
-    subtitle: "JavaScript",
+    subtitle: "Front End - JavaScript",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "https://arjdad.com/img/webtimetracker.jpeg",
@@ -17,15 +17,15 @@ export const projects = [
   },
   {
     title: "DormBook",
-    subtitle: "MERN Stack",
+    subtitle: "FullStack - MERN Stack",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "https://arjdad.com/img/DormBookScreen.jpg",
     link: "",
   },
   {
-    title: "Personal Website",
-    subtitle: "HTML CSS JavaScript",
+    title: "Old Personal Website",
+    subtitle: "Front End - HTML CSS JavaScript",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "https://arjdad.com/img/Website.PNG",
@@ -33,7 +33,7 @@ export const projects = [
   },
   {
     title: "Daily Task Tracker App",
-    subtitle: "React Redux",
+    subtitle: "Front End - React Redux",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "https://arjdad.com/img/dailyTracker.PNG",
@@ -41,7 +41,7 @@ export const projects = [
   },
   {
     title: "Workout Timer App",
-    subtitle: "JavaFX",
+    subtitle: "Front End - JavaFX",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "https://arjdad.com/img/circuit.PNG",
