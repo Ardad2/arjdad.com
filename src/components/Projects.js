@@ -3,10 +3,15 @@ import { projects } from "../data";
 
 var display = 0;
 
-function displayProjects() {
+function displayProjects(display) {
+  if (display == 0)
+  {
   return (<React.Fragment>
-          {projects.map((project) => (
-            <a href={project.link} key={project.image} className="sm:w-1/4 sm:h-1/4 p-2">
+          {projects.filter((project) => project.type === "Mobile") .map((project) => (
+
+
+  
+             <a href={project.link} key={project.image} className="sm:w-1/4 sm:h-1/4 p-2">
               <div className="flex relative">
                 <img
                   alt="gallery"
@@ -25,11 +30,16 @@ function displayProjects() {
               </div>
               <p>{project.title}</p>
             </a>
+
           )
           
           )}
 
   </React.Fragment>)
+  }
+  else {
+    return (<p>Nope</p>)
+  }
 }
 
 export default function Projects() {
@@ -73,7 +83,7 @@ export default function Projects() {
 
         
         return <div className="flex flex-wrap -m-4">
-        {displayProjects()}
+        {displayProjects(display)}
 
         </div>
 
