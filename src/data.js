@@ -1,5 +1,6 @@
 export const projects = [
   {
+    type: "Mobile",
     title: "Hand Cricket",
     subtitle: "Mobile",
     description:
@@ -8,6 +9,7 @@ export const projects = [
     link: "",
   },
   {
+    type: "backEnd",
     title: "Web Time Tracker Extension",
     subtitle: "Front End - JavaScript",
     description:
@@ -16,6 +18,7 @@ export const projects = [
     link: "",
   },
   {
+    type: "fullStack",
     title: "DormBook",
     subtitle: "FullStack - MERN Stack",
     description:
@@ -24,6 +27,7 @@ export const projects = [
     link: "",
   },
   {
+    type: "frontEnd",
     title: "Old Personal Website",
     subtitle: "Front End - HTML CSS JavaScript",
     description:
@@ -32,6 +36,7 @@ export const projects = [
     link: "",
   },
   {
+    type: "frontEnd",
     title: "Daily Task Tracker App",
     subtitle: "Front End - React Redux",
     description:
@@ -40,6 +45,7 @@ export const projects = [
     link: "",
   },
   {
+    type: "frontEnd",
     title: "Workout Timer App",
     subtitle: "Front End - JavaFX",
     description:
