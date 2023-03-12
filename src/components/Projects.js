@@ -9,8 +9,30 @@ export default function Projects() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-gray">
             Select Projects
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-          </p>
+          <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 	flex flex-wrap items-center text-base justify-center">
+        <a href="#skills" className="mr-5 hover:text-white">
+        <p>Front End</p>
+          </a>
+          <a href="#projects" className="mr-5 hover:text-white">
+          <p>Back End</p>
+          </a>
+          <a
+          href="#contact"
+          className="mr-5 hover:text-white">
+        <p>Full Stack</p>
+        </a>
+        <a
+          href=""
+          className="mr-5 hover:text-white">
+        <p>Mobile</p>
+        </a>
+        <a
+          href=""
+          className="mr-5 hover:text-white">
+        <p>Show All</p>
+        </a>
+        </nav>
+
         </div>
 
 

@@ -13,6 +13,9 @@ export default function Skills() {
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
           </p>
         </div>
+        
+
+
 
 
       </div>
