@@ -76,12 +76,10 @@ function displayProjects(display) {
 }
 
 export default class Projects extends React.Component {
-
-  displayVar = "Show All";
-
-  constructor(props)
+  
+  constructor()
   {
-    super(props); 
+    super(); 
     this.state = {
       displayState: "Show All"
     }
