@@ -1,7 +1,7 @@
 import React from "react";
+import { FaRegCaretSquareDown } from "react-icons/fa";
 import { projects } from "../data";
 
-var display = "Show All";
 
 function displayProjects(display) {
   if (display === "Show All")
@@ -75,7 +75,19 @@ function displayProjects(display) {
   }
 }
 
-export default function Projects() {
+export default class Projects extends React.Component {
+
+  displayVar = "Show All";
+
+  constructor(props)
+  {
+    super(props); 
+    this.state = {
+      displayState: "Show All"
+    }
+    }
+
+  render () {
   return (
     <section id="projects" className="text-gray-900 bg-white-900 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
@@ -87,29 +99,29 @@ export default function Projects() {
           <div className="flex flex-row w-full">
           <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4	flex flex-wrap items-center  text-gray justify-center">
 
-        <button onClick={() => {display = "frontEnd"}} className="mr-5 hover:text-white">
+        <button onClick={() => {this.setState({displayState: "frontEnd"})}} className="mr-5 hover:text-white">
         <p>Front End</p>
           </button>
 
 
-          <a href="#projects" className="mr-5 hover:text-white">
+          <button onClick={() => {this.setState({displayState: "backEnd"})}} className="mr-5 hover:text-white">
+            
           <p>Back End</p>
-          </a>
-          <a
-          href="#contact"
-          className="mr-5 hover:text-white">
+          </button>
+
+        <button onClick={() => {this.setState({displayState: "fullStack"})}} className="mr-5 hover:text-white">
+
         <p>Full Stack</p>
-        </a>
-        <a
-          href=""
-          className="mr-5 hover:text-white">
+        </button>
+        
+        <button onClick={() => {this.setState({displayState: "Mobile"})}} className="mr-5 hover:text-white">
         <p>Mobile</p>
-        </a>
-        <a
-          href=""
-          className="mr-5 hover:text-white">
+        </button>
+
+        <button onClick={() => {this.setState({displayState: "Show All"})}} className="mr-5 hover:text-white">
+
         <p>Show All</p>
-        </a>
+        </button>
         </nav>
 
         </div>
@@ -119,7 +131,7 @@ export default function Projects() {
 
         
         <div className="flex flex-wrap -m-4">
-        {displayProjects(display)}
+        {displayProjects(this.state.displayState)}
 
         </div>
 
@@ -127,4 +139,5 @@ export default function Projects() {
       </div>
     </section>
   );
+  }
 }
