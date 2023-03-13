@@ -76,7 +76,7 @@ function displayProjects(display) {
 }
 
 export default class Projects extends React.Component {
-  
+
   constructor()
   {
     super(); 
@@ -97,26 +97,26 @@ export default class Projects extends React.Component {
           <div className="flex flex-row w-full">
           <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4	flex flex-wrap items-center  text-gray justify-center">
 
-        <button onClick={() => {this.setState({displayState: "frontEnd"})}} className="mr-5 hover:text-white">
+        <button onClick={() => {this.setState({displayState: "frontEnd"})}} className="mr-5 hover:text-blue-600">
         <p>Front End</p>
           </button>
 
 
-          <button onClick={() => {this.setState({displayState: "backEnd"})}} className="mr-5 hover:text-white">
+          <button onClick={() => {this.setState({displayState: "backEnd"})}} className="mr-5 hover:text-blue-600">
             
           <p>Back End</p>
           </button>
 
-        <button onClick={() => {this.setState({displayState: "fullStack"})}} className="mr-5 hover:text-white">
+        <button onClick={() => {this.setState({displayState: "fullStack"})}} className="mr-5 hover:text-blue-600">
 
         <p>Full Stack</p>
         </button>
         
-        <button onClick={() => {this.setState({displayState: "Mobile"})}} className="mr-5 hover:text-white">
+        <button onClick={() => {this.setState({displayState: "Mobile"})}} className="mr-5 hover:text-blue-600">
         <p>Mobile</p>
         </button>
 
-        <button onClick={() => {this.setState({displayState: "Show All"})}} className="mr-5 hover:text-white">
+        <button onClick={() => {this.setState({displayState: "Show All"})}} className="mr-5 hover:text-blue-600">
 
         <p>Show All</p>
         </button>
