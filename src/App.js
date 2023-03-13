@@ -11,7 +11,7 @@ export default function App() {
   useEffect( () => {document.title = 'Arjun Dadhwal - Software Developer'}, []);
 
   return (
-    <main className="text-gray-400 bg-white-900 body-font " >
+    <main className="text-gray-400 bg-white-100 body-font " >
       <Navbar />
       <About/>
       <Skills />

@@ -15,7 +15,7 @@ function displayProjects(display) {
           <div className="flex relative">
             <img
               alt="gallery"
-              className="absolute inset-0 w-full h-full object-cover object-center"
+              className="shadow-lg rounded-md absolute inset-0 w-full h-full object-cover object-center"
               src={project.image}     
             />
             <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
@@ -87,7 +87,7 @@ export default class Projects extends React.Component {
 
   render () {
   return (
-    <section id="projects" className="text-gray-900 bg-white-900 body-font">
+    <section id="projects" className="text-gray-900 bg-white-900 body-font rounded-lg">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-gray">
@@ -96,6 +96,11 @@ export default class Projects extends React.Component {
 
           <div className="flex flex-row w-full">
           <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4	flex flex-wrap items-center  text-gray justify-center">
+
+          <button onClick={() => {this.setState({displayState: "Show All"})}} className="mr-5 hover:text-blue-600">
+
+<p>Show All</p>
+</button>
 
         <button onClick={() => {this.setState({displayState: "frontEnd"})}} className="mr-5 hover:text-blue-600">
         <p>Front End</p>
@@ -116,10 +121,6 @@ export default class Projects extends React.Component {
         <p>Mobile</p>
         </button>
 
-        <button onClick={() => {this.setState({displayState: "Show All"})}} className="mr-5 hover:text-blue-600">
-
-        <p>Show All</p>
-        </button>
         </nav>
 
         </div>
