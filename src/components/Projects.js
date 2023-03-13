@@ -24,8 +24,8 @@ function displayProjects(display) {
               </h2>
               <h1 className="title-font text-lg font-medium text-white mb-3">
                 {project.title}
+                <p className="leading-relaxed">{project.description}</p>
               </h1>
-              <p className="leading-relaxed">{project.description}</p>
             </div>
           </div>
           <p>{project.title}</p>

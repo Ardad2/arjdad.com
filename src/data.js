@@ -4,7 +4,7 @@ export const projects = [
     title: "Hand Cricket",
     subtitle: "Mobile",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "A small mobile game based on a number based guessing game,'Hand Cricket', popular amongst children in India.",
     image: "https://arjdad.com/img/HandCricket.jpeg",
     link: "",
   },
@@ -13,7 +13,7 @@ export const projects = [
     title: "Web Time Tracker Extension",
     subtitle: "Front End - JavaScript",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "A web application which allows the user to keep track of the tasks they have been doing that day and the time taken for them using Timers. Built using React and Redux.",
     image: "https://arjdad.com/img/webtimetracker.jpeg",
     link: "",
   },
@@ -22,7 +22,7 @@ export const projects = [
     title: "DormBook",
     subtitle: "FullStack - MERN Stack",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "A full-stack social media website which allows the users to create authenticated accounts and submit and react to posts made by each other",
     image: "https://arjdad.com/img/DormBookScreen.jpg",
     link: "",
   },
@@ -31,7 +31,7 @@ export const projects = [
     title: "Old Personal Website",
     subtitle: "Front End - HTML CSS JavaScript",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "Old version of my personal website, made using just HTML + CSS + JavaScript.",
     image: "https://arjdad.com/img/Website.PNG",
     link: "",
   },
@@ -40,7 +40,7 @@ export const projects = [
     title: "Daily Task Tracker App",
     subtitle: "Front End - React Redux",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "A simple task tracker app helps keep track of the activity the user has done throughout the day along with the time spent on it and also allows user to categorize activities.",
     image: "https://arjdad.com/img/dailyTracker.PNG",
     link: "",
   },
@@ -49,7 +49,7 @@ export const projects = [
     title: "Workout Timer App",
     subtitle: "Front End - JavaFX",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "An app to help in making exercise circuit intervals, made especially for at home workouts. Makes use of timers and alarms.",
     image: "https://arjdad.com/img/circuit.PNG",
     link: "",
   },
