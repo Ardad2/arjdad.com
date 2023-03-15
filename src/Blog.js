@@ -13,10 +13,6 @@ export default function Blog() {
   return (
     <main className="text-gray-400 bg-white-100 body-font " >
       <Navbar />
-      <About/>
-      <Skills />
-      <Projects/>
-      <Contact />
     </main>
   );
 }

@@ -2,9 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom"
 
 export default function Navbar() {
- // const [isOpen, setOpen] = useState(false);
-
- // const Navbar = () => {const [isOpen, setOpen] = useState (false)}
+  const [isOpen, setOpen] = useState(false);
 
   return (
     <header className="bg-white md:sticky top-0 z-10 backdrop-filter backdrop-blur-lg border-b border-gray-200 firefox:bg-opacity-90">
