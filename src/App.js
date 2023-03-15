@@ -1,10 +1,8 @@
 import React, { useEffect } from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from './pages/Home'
+import Blog from './pages/Blog'
+
 
 
 export default function App() {
@@ -13,11 +11,10 @@ export default function App() {
 
   return (
     <main className="text-gray-400 bg-white-100 body-font " >
-      <Navbar />
-      <About/>
-      <Skills />
-      <Projects/>
-      <Contact />
+      <Routes>
+        <Route exact path="/" element ={<Home/>} />
+        <Route exact path="/Blog" element = {<Blog/>}  />
+      </Routes>
     </main>
   );
 }
