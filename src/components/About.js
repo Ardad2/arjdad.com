@@ -20,7 +20,7 @@ export default function About() {
           <img
             className="shadow-lg rounded-lg max-w-full h-auto align-middle border-solid border-grey-900"
             alt="Arjun"
-            src="https://arjdad.com/img/37658489.jpeg"
+            src="https://i.imgur.com/3zDsMXv.jpg"
           />
         </div>
       </div>

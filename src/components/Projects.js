@@ -3,6 +3,7 @@ import { FaRegCaretSquareDown } from "react-icons/fa";
 import { projects } from "../data";
 
 
+
 function displayProjects(display) {
   if (display === "Show All")
   {

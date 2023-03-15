@@ -27,7 +27,7 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="text-white-900 bg-gray-900 body-font">
+    <section id="contact" style={{backgroundColor: "#20232a"}} className="text-white-900  body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="text-center mb-20 px-5">
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">

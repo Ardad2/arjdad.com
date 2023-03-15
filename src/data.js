@@ -5,7 +5,7 @@ export const projects = [
     subtitle: "Mobile",
     description:
       "A small mobile game based on a number based guessing game,'Hand Cricket', popular amongst children in India.",
-    image: "https://arjdad.com/img/HandCricket.jpeg",
+    image: "https://i.imgur.com/bwaALbG.jpg",
     link: "",
   },
   {
@@ -14,7 +14,7 @@ export const projects = [
     subtitle: "Front End - JavaScript",
     description:
       "A web application which allows the user to keep track of the tasks they have been doing that day and the time taken for them using Timers. Built using React and Redux.",
-    image: "https://arjdad.com/img/webtimetracker.jpeg",
+    image: "https://i.imgur.com/tnErzxX.jpg",
     link: "",
   },
   {
@@ -23,7 +23,7 @@ export const projects = [
     subtitle: "FullStack - MERN Stack",
     description:
       "A full-stack social media website which allows the users to create authenticated accounts and submit and react to posts made by each other",
-    image: "https://arjdad.com/img/DormBookScreen.jpg",
+    image: "https://i.imgur.com/NXFD6eM.jpg",
     link: "",
   },
   {
@@ -32,7 +32,7 @@ export const projects = [
     subtitle: "Front End - HTML CSS JavaScript",
     description:
       "Old version of my personal website, made using just HTML + CSS + JavaScript.",
-    image: "https://arjdad.com/img/Website.PNG",
+    image: "https://i.imgur.com/SNiodml.png",
     link: "",
   },
   {
@@ -41,7 +41,7 @@ export const projects = [
     subtitle: "Front End - React Redux",
     description:
       "A simple task tracker app helps keep track of the activity the user has done throughout the day along with the time spent on it and also allows user to categorize activities.",
-    image: "https://arjdad.com/img/dailyTracker.PNG",
+    image: "https://i.imgur.com/TGmWgxW.png",
     link: "",
   },
   {
@@ -50,7 +50,7 @@ export const projects = [
     subtitle: "Front End - JavaFX",
     description:
       "An app to help in making exercise circuit intervals, made especially for at home workouts. Makes use of timers and alarms.",
-    image: "https://arjdad.com/img/circuit.PNG",
+    image: "https://i.imgur.com/CpT7hGw.png",
     link: "",
   },
 ];
