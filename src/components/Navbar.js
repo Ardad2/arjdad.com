@@ -14,9 +14,6 @@ export default function Navbar() {
         <Link to="/Blog" className = "p-2 mr-4 inline-flex px-3 py-2 rounded-lg border-white text-gray-700 border rounded-full hover:bg-gray-200 duration-300 transition-colors" >
           Blog
         </Link>
-        <Link to="/Blog" className = "p-2 mr-4 inline-flex px-3 py-2 rounded-lg border-white text-gray-700 border rounded-full hover:bg-gray-200 duration-300 transition-colors" >
-          Coding Prep
-        </Link>
         </nav>
       </div>
     </header>
