@@ -1,7 +1,7 @@
 {
   "name": "Arjun Dadhwal - Software Developer",
   "version": "0.1.0",
-  "homepage" : "https://ardad2.github.io/new-website-test",
+  "homepage" : "https://arjdad.com",
   "private": true,
   "dependencies": {
     "@craco/craco": "^5.9.0",
