@@ -1,13 +1,13 @@
 {
-  "main.css": "/AlternateWebsite.github.io/static/css/main.e6d66d59.chunk.css",
-  "main.js": "/AlternateWebsite.github.io/static/js/main.b7690879.chunk.js",
-  "main.js.map": "/AlternateWebsite.github.io/static/js/main.b7690879.chunk.js.map",
-  "runtime~main.js": "/AlternateWebsite.github.io/static/js/runtime~main.0e939c0d.js",
-  "runtime~main.js.map": "/AlternateWebsite.github.io/static/js/runtime~main.0e939c0d.js.map",
-  "static/js/2.68080ab8.chunk.js": "/AlternateWebsite.github.io/static/js/2.68080ab8.chunk.js",
-  "static/js/2.68080ab8.chunk.js.map": "/AlternateWebsite.github.io/static/js/2.68080ab8.chunk.js.map",
-  "index.html": "/AlternateWebsite.github.io/index.html",
-  "precache-manifest.80fa651a875b708573608339c7b50348.js": "/AlternateWebsite.github.io/precache-manifest.80fa651a875b708573608339c7b50348.js",
-  "service-worker.js": "/AlternateWebsite.github.io/service-worker.js",
-  "static/css/main.e6d66d59.chunk.css.map": "/AlternateWebsite.github.io/static/css/main.e6d66d59.chunk.css.map"
+  "main.css": "/static/css/main.e6d66d59.chunk.css",
+  "main.js": "/static/js/main.b7690879.chunk.js",
+  "main.js.map": "/static/js/main.b7690879.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+  "static/js/2.68080ab8.chunk.js": "/static/js/2.68080ab8.chunk.js",
+  "static/js/2.68080ab8.chunk.js.map": "/static/js/2.68080ab8.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.403e9824248bf6b20552c18b9afc8054.js": "/precache-manifest.403e9824248bf6b20552c18b9afc8054.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/main.e6d66d59.chunk.css.map": "/static/css/main.e6d66d59.chunk.css.map"
 }
