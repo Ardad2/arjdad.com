@@ -27,14 +27,14 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" style={{backgroundColor: "#20232a"}} className="text-white-900  body-font">
+    <section id="contact" className="text-white-900  bg-f5f5f5 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="text-center mb-20 px-5">
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
+          <h1 className="sm:text-4xl text-3xl font-medium title-font text-black mb-4">
             Contact Me
           </h1> 
-          <p className="mb-8 leading-relaxed text-grey">
-          You can contact me on <a href="https://www.linkedin.com/in/arjundadhwal" className="text-white">LinkedIn</a> or <a href="mailto:adadhwal@asu.edu" className="text-white">send me an email</a> . I'll try to respond as soon as possible, hopefully within 24 hours. 
+          <p className="mb-8 leading-relaxed text-black">
+          You can contact me on <a href="https://www.linkedin.com/in/arjundadhwal" className="text-blue-600">LinkedIn</a> or <a href="mailto:adadhwal@asu.edu" className="text-blue-600">send me an email</a>. I'll try to respond as soon as possible, hopefully within 24 hours. 
           </p>
         </div>
 
