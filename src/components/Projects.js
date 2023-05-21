@@ -98,27 +98,27 @@ export default class Projects extends React.Component {
           <div className="flex flex-row w-full">
           <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4	flex flex-wrap items-center  text-gray justify-center">
 
-          <button className = "p-2 mr-4 inline-flex px-3 py-2 rounded-lg border-white text-gray-700 border rounded-full hover:bg-gray-200 duration-300 transition-colors dark:text-white"  onClick={() => {this.setState({displayState: "Show All"})}}>
+          <button className = "p-2 mr-4 inline-flex px-3 py-2 rounded-lg border-white text-gray-700 border rounded-full hover:bg-gray-200 duration-300 transition-colors dark:text-white dark:border-23272f"  onClick={() => {this.setState({displayState: "Show All"})}}>
 
 <p>Show All</p>
 </button>
 
-        <button onClick={() => {this.setState({displayState: "frontEnd"})}} className = "p-2 mr-4 inline-flex px-3 py-2 rounded-lg border-white text-gray-700 border rounded-full hover:bg-gray-200 duration-300 transition-colors dark:text-white">
+        <button onClick={() => {this.setState({displayState: "frontEnd"})}} className = "p-2 mr-4 inline-flex px-3 py-2 rounded-lg border-white text-gray-700 border rounded-full hover:bg-gray-200 duration-300 transition-colors dark:text-white dark:border-23272f">
         <p>Front End</p>
           </button>
 
 
-          <button onClick={() => {this.setState({displayState: "backEnd"})}} className = "p-2 mr-4 inline-flex px-3 py-2 rounded-lg border-white text-gray-700 border rounded-full hover:bg-gray-200 duration-300 transition-colors dark:text-white">
+          <button onClick={() => {this.setState({displayState: "backEnd"})}} className = "p-2 mr-4 inline-flex px-3 py-2 rounded-lg border-white text-gray-700 border rounded-full hover:bg-gray-200 duration-300 transition-colors dark:text-white dark:border-23272f">
             
           <p>Back End</p>
           </button>
 
-        <button  onClick={() => {this.setState({displayState: "fullStack"})}} className = "p-2 mr-4 inline-flex px-3 py-2 rounded-lg border-white text-gray-700 border rounded-full hover:bg-gray-200 duration-300 transition-colors dark:text-white">
+        <button  onClick={() => {this.setState({displayState: "fullStack"})}} className = "p-2 mr-4 inline-flex px-3 py-2 rounded-lg border-white text-gray-700 border rounded-full hover:bg-gray-200 duration-300 transition-colors dark:text-white dark:border-23272f">
 
         <p>Full Stack</p>
         </button>
         
-        <button onClick={() => {this.setState({displayState: "Mobile"})}} className = "p-2 mr-4 inline-flex px-3 py-2 rounded-lg border-white text-gray-700 border rounded-full hover:bg-gray-200 duration-300 transition-colors dark:text-white">
+        <button onClick={() => {this.setState({displayState: "Mobile"})}} className = "p-2 mr-4 inline-flex px-3 py-2 rounded-lg border-white text-gray-700 border rounded-full hover:bg-gray-200 duration-300 transition-colors dark:text-white dark:border-23272f">
         <p>Mobile</p>
         </button>
 
