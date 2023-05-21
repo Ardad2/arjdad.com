@@ -57,11 +57,11 @@ export const projects = [
 
 export const skills = [
   {
-  languages: ["Java", "C++", "C", "JavaScript", "Python", "Swift", "Dart", "Scheme", "Prolog", "HTML", "CSS", "SQL"],
-  frameworks: ["React", "Redux", "Express", "JavaFX", "React Native", "Node", "Android Studio", "Flutter", "IOS Development"],
+  languages: ["Java", "C++", "C", "JavaScript", "Python", "Swift", "Dart", "C#", "Scheme", "Prolog", "HTML", "CSS", "SQL"],
+  frameworks: ["React", "Redux", "Express", "JavaFX", "React Native", "Node", "Android Studio", "Flutter", "Xcode", ".NET"],
   tools: ["Postman", "Git"],
   databasetech: ["SQL", "MySQL", "MongoDB", "Firebase", "SQLite"],
-  concepts: ["Software Development", "Data Structures and Algorithms", "Full Stack Web Development", "Mobile Application Development", "Information Assurance", "Theoretical Computer Science", "Cloud Computing", "Aritificial Intelligence"],
-  others: ["Typing"]
+  concepts: ["Software Development", "Data Structures and Algorithms", "Full Stack Web Development", "Mobile Application Development", "Information Assurance", "Theoretical Computer Science", "Cloud Computing", "Artificial Intelligence"],
+  others: ["Typing [130 WPM+]"]
   },
 ];

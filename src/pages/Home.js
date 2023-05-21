@@ -12,7 +12,7 @@ export default function Home() {
   useEffect( () => {document.title = 'Arjun Dadhwal - Software Developer'}, []);
 
   return (
-    <main className="text-gray-400 bg-white-100 body-font " >
+    <main className="text-black dark:text-white bg-white-100 body-font dark:bg-23272f" >
       <Navbar />
       <About/>
       <Skills />
