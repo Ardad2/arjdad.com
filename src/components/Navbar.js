@@ -20,6 +20,9 @@ export default function Navbar() {
         <Link to="/Blog" className = "p-2 mr-4 inline-flex px-3 py-2 rounded-lg border-white dark:border-23272f text-gray-700 border rounded-full hover:bg-gray-200 duration-300 dark:text-white transition-colors" >
           Blog
         </Link>
+        <Link to="/DSA" className = "p-2 mr-4 inline-flex px-3 py-2 rounded-lg border-white dark:border-23272f text-gray-700 border rounded-full hover:bg-gray-200 duration-300 dark:text-white transition-colors" >
+          Data Structures and Algorithms
+        </Link>
         <div className = "text-2xl button text-gray-700 dark:text-white">
                  <ThemeIcon/>
                 </div>

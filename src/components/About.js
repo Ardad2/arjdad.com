@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom"
+
 
 export default function About() {
   return (
@@ -12,9 +14,13 @@ export default function About() {
           <br/>
           <p className="mb-8 leading-relaxed">
 
-          I'm a rising senior majoring in Computer Science at Arizona State University. I'm passionate about Software Development and enjoy learning more about my field by developing applications that solve real world problems.
+          I'm a senior majoring in Computer Science at Arizona State University. I'm passionate about Software Development and enjoy learning more about my field by developing applications that solve real world problems.
           </p>
+                  <Link to="https://drive.google.com/file/d/1AgrXpSRGq5PFS-9r7fjsuxHezFuTQtpu/view?usp=sharing" className = "p-2 mr-4 inline-flex px-3 py-2 rounded-lg border-white dark:border-23272f text-gray-700 border rounded-full bg-gray-200 duration-300 dark:text-white transition-colors" >
+          Resume
+        </Link>
         </div>
+
         <div className="">
           <img
             className="shadow-lg rounded-full max-w-full h-auto align-middle border-solid border-grey-900 "

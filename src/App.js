@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from './pages/Home'
 import Blog from './pages/Blog'
+import DSA from './pages/DSA'
 
 
 
@@ -14,6 +15,7 @@ export default function App() {
       <Routes>
         <Route exact path="/" element ={<Home/>} />
         <Route exact path="/Blog" element = {<Blog/>}  />
+        <Route exact path="/DSA" element = {<DSA/>}  />
       </Routes>
     </main>
   );
