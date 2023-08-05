@@ -61,7 +61,7 @@ export const skills = [
   frameworks: ["React", "Redux", "Express", "JavaFX", "React Native", "Node", "Android Studio", "Flutter", "Xcode", ".NET"],
   tools: ["Postman", "Git", "Axure RP"],
   databasetech: ["SQL", "MySQL", "MongoDB", "Firebase", "SQLite"],
-  concepts: ["Software Development", "Data Structures and Algorithms", "Full Stack Web Development", "Mobile Application Development", "Information Assurance", "Theoretical Computer Science", "Cloud Computing", "Artificial Intelligence"],
+  concepts: ["Software Development", "Data Structures and Algorithms", "Full Stack Web Development", "Mobile Application Development", "Information Assurance", "Theoretical Computer Science", "Cloud Computing", "Artificial Intelligence", "UI/UX Desgin"],
   others: ["Typing [130-150 WPM+]"]
   },
 ];
