@@ -14,7 +14,10 @@ export default function About() {
           <br/>
           <p className="mb-8 leading-relaxed">
 
-          I'm a senior majoring in Computer Science at Arizona State University. I'm passionate about Software Development and enjoy learning more about my field by developing applications that solve real world problems.
+          I'm a 4 + 1 graduate student majoring in Computer Science at Arizona State University. I'm passionate about Software Development and enjoy learning more about my field by developing applications that solve real world problems.
+          </p>
+          <p className="mb-8 leading-relaxed">
+          Actively seeking Software Engineering internship opportunities for the Summer of 2024.
           </p>
                   <Link to="https://drive.google.com/file/d/1ASG6yt-iyPQWGUIb6FP3H_5rGuz8HQB9/view?usp=sharing" className = "p-2 mr-4 inline-flex px-3 py-2 rounded-lg border-white dark:border-23272f text-gray-700 border rounded-full bg-gray-200 duration-300 dark:text-white transition-colors" >
           Resume
@@ -23,10 +26,10 @@ export default function About() {
 
         <div className="">
           <img
-            className="shadow-lg rounded-full max-w-full h-auto align-middle border-solid border-grey-900 "
-            alt="Arjun"
-            src="https://i.imgur.com/3zDsMXv.jpg"
-          />
+              className="shadow-lg rounded-full max-w-full h-auto align-middle border-solid border-grey-900 "
+              alt="Arjun"
+              src="https://i.imgur.com/3zDsMXv.jpg"
+            />
         </div>
       </div>
     </section>

@@ -15,7 +15,6 @@ export default function App() {
       <Routes>
         <Route exact path="/" element ={<Home/>} />
         <Route exact path="/Blog" element = {<Blog/>}  />
-        <Route exact path="/DSA" element = {<DSA/>}  />
       </Routes>
     </main>
   );
