@@ -9,7 +9,7 @@ export const projects = [
     link: "",
   },
   {
-    type: "backEnd",
+    type: "frontEnd",
     title: "Web Time Tracker Extension",
     subtitle: "Front End - JavaScript",
     description:
@@ -51,6 +51,24 @@ export const projects = [
     description:
       "An app to help in making exercise circuit intervals, made especially for at home workouts. Makes use of timers and alarms.",
     image: "https://i.imgur.com/CpT7hGw.png",
+    link: "",
+  },
+  {
+    type: "fullStack",
+    title: "Office Automation System for Pediatric Doctor’s Office",
+    subtitle: "Front End - JavaFX, Back End - MySQL",
+    description:
+      "Software which allows medical workers to login and keep track of the data of all the patients and also interact with them. The patients can also login and interact with the medical workers..",
+    image: "",
+    link: "",
+  },
+  {
+    type: "fullStack",
+    title: "mySemesterPal (Swift)",
+    subtitle: "Swift",
+    description:
+      "Mobile App",
+    image: "",
     link: "",
   },
 ];
