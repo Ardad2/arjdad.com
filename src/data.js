@@ -62,6 +62,61 @@ export const projects = [
     image: "",
     link: "",
   },
+  {
+    type: "fullStack",
+    title: "mySemesterPal",
+    subtitle: "Swift + Google Firebase",
+    description:
+      "Software which allows medical workers to login and keep track of the data of all the patients and also interact with them. The patients can also login and interact with the medical workers..",
+    image: "",
+    link: "",
+  },
+  {
+    type: "frontEnd",
+    title: "ASU Management Web Application",
+    subtitle: "C# (.NET)",
+    description:
+      "Software which allows medical workers to login and keep track of the data of all the patients and also interact with them. The patients can also login and interact with the medical workers..",
+    image: "",
+    link: "",
+  },
+  {
+    type: "frontEnd",
+    title: "ASU Management Web Application",
+    subtitle: "Swift + Google Firebase",
+    description:
+      "Software which allows medical workers to login and keep track of the data of all the patients and also interact with them. The patients can also login and interact with the medical workers..",
+    image: "",
+    link: "",
+  },
+  {
+    type: "frontEnd",
+    title: "apple.com Prototype",
+    subtitle: "Axure RP",
+    description:
+      "Software which allows medical workers to login and keep track of the data of all the patients and also interact with them. The patients can also login and interact with the medical workers..",
+    image: "",
+    link: "",
+  },
+  {
+    type: "frontEnd",
+    title: "Zara.com Redesign",
+    subtitle: "Axure RP",
+    description:
+      "Software which allows medical workers to login and keep track of the data of all the patients and also interact with them. The patients can also login and interact with the medical workers..",
+    image: "",
+    link: "",
+  },
+  {
+    type: "frontEnd",
+    title: "Property Management Application",
+    subtitle: "Java, JavaFX, PostgreSQL",
+    description:
+      "Software which allows medical workers to login and keep track of the data of all the patients and also interact with them. The patients can also login and interact with the medical workers..",
+    image: "",
+    link: "",
+  },
+
 ];
 
 export const skills = [
