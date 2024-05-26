@@ -59,7 +59,7 @@ export const projects = [
     subtitle: "Front End - JavaFX, Back End - MySQL",
     description:
       "Software which allows medical workers to login and keep track of the data of all the patients and also interact with them. The patients can also login and interact with the medical workers..",
-    image: "",
+    image: "https://i.imgur.com/7lQ7yhL_d.webp?maxwidth=760&fidelity=grand",
     link: "",
   },
   {
@@ -68,7 +68,7 @@ export const projects = [
     subtitle: "Swift + Google Firebase",
     description:
       "Software which allows medical workers to login and keep track of the data of all the patients and also interact with them. The patients can also login and interact with the medical workers..",
-    image: "",
+    image: "https://i.imgur.com/eTnmUCr.png",
     link: "",
   },
   {
@@ -77,16 +77,7 @@ export const projects = [
     subtitle: "C# (.NET)",
     description:
       "Software which allows medical workers to login and keep track of the data of all the patients and also interact with them. The patients can also login and interact with the medical workers..",
-    image: "",
-    link: "",
-  },
-  {
-    type: "frontEnd",
-    title: "ASU Management Web Application",
-    subtitle: "Swift + Google Firebase",
-    description:
-      "Software which allows medical workers to login and keep track of the data of all the patients and also interact with them. The patients can also login and interact with the medical workers..",
-    image: "",
+    image: "https://i.imgur.com/YYVrLD9.png",
     link: "",
   },
   {
@@ -95,7 +86,7 @@ export const projects = [
     subtitle: "Axure RP",
     description:
       "Software which allows medical workers to login and keep track of the data of all the patients and also interact with them. The patients can also login and interact with the medical workers..",
-    image: "",
+    image: "https://i.imgur.com/dzEri0v.png",
     link: "",
   },
   {
@@ -104,7 +95,7 @@ export const projects = [
     subtitle: "Axure RP",
     description:
       "Software which allows medical workers to login and keep track of the data of all the patients and also interact with them. The patients can also login and interact with the medical workers..",
-    image: "",
+    image: "https://i.imgur.com/BKejqeG.png",
     link: "",
   },
   {
@@ -113,7 +104,7 @@ export const projects = [
     subtitle: "Java, JavaFX, PostgreSQL",
     description:
       "Software which allows medical workers to login and keep track of the data of all the patients and also interact with them. The patients can also login and interact with the medical workers..",
-    image: "",
+    image: "https://i.imgur.com/cPm6EUm.png",
     link: "",
   },
 
