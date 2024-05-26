@@ -62,15 +62,6 @@ export const projects = [
     image: "",
     link: "",
   },
-  {
-    type: "fullStack",
-    title: "mySemesterPal (Swift)",
-    subtitle: "Swift",
-    description:
-      "Mobile App",
-    image: "",
-    link: "",
-  },
 ];
 
 export const skills = [
@@ -80,6 +71,6 @@ export const skills = [
   tools: ["Postman", "Git", "Axure RP", "Selenium", "TensorFlow"],
   databasetech: ["SQL", "MySQL", "MongoDB", "Firebase", "SQLite", "PostgreSQL", "AWS DynamoDB"],
   concepts: ["Software Development", "Data Structures and Algorithms", "Full Stack Web Development", "Mobile Application Development", "Artificial Intelligence", "Machine Learning", "Cloud Computing", "UI/UX Design", "Software Quality and Assurance Testing", "Distributed Software Development", "Information Assurance", "Theoretical Computer Science"],
-  others: ["Typing [130-150 WPM+]"]
+  others: ["Typing [130-150 WPM]"]
   },
 ];
