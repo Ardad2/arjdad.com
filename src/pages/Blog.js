@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 
 import Navbar from "../components/Navbar";
 import Contact from "../components/Contact";
-
+import blogPlaceholder from '../components/About2';
 
 
 export default function Blog() {
@@ -12,6 +12,7 @@ export default function Blog() {
   return (
     <main className="text-gray-400 bg-white-100 body-font " >
       <Navbar />
+      <blogPlaceholder/>
       <Contact />
     </main>
   );
