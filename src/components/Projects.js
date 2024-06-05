@@ -122,6 +122,10 @@ export default class Projects extends React.Component {
         <p>Mobile</p>
         </button>
 
+        <button onClick={() => {this.setState({displayState: "machineLearning"})}} className = "p-2 mr-4 inline-flex px-3 py-2 rounded-lg border-white text-gray-700 border rounded-full hover:bg-gray-200 duration-300 transition-colors dark:text-white dark:border-23272f">
+        <p>Machine Learning</p>
+        </button>
+
         </nav>
 
         </div>
