@@ -45,25 +45,25 @@ function displayProjects(display) {
 
 
   
-             <a href={project.link} key={project.image} className="sm:w-1/4 sm:h-1/4 p-2">
-              <div className="flex relative">
-                <img
-                  alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={project.image}     
-                />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
-                    {project.subtitle}
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
-                    {project.title}
-                  </h1>
-                  <p className="leading-relaxed">{project.description}</p>
-                </div>
-              </div>
-              <p>{project.title}</p>
-            </a>
+        <a href={project.link} key={project.image} className="sm:w-1/4 sm:h-1/4 p-2">
+        <div className="flex relative">
+          <img
+            alt="gallery"
+            className="shadow-lg rounded-md absolute inset-0 w-full h-full object-cover object-center"
+            src={project.image}     
+          />
+          <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+            <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
+              {project.subtitle}
+            </h2>
+            <h1 className="title-font text-lg font-medium text-white mb-3">
+              {project.title}
+              <p className="leading-relaxed">{project.description}</p>
+            </h1>
+          </div>
+        </div>
+        <p>{project.title}</p>
+        </a>
 
           )
           
@@ -99,9 +99,8 @@ export default class Projects extends React.Component {
           <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4	flex flex-wrap items-center  text-gray justify-center">
 
           <button className = "p-2 mr-4 inline-flex px-3 py-2 rounded-lg border-white text-gray-700 border rounded-full hover:bg-gray-200 duration-300 transition-colors dark:text-white dark:border-23272f"  onClick={() => {this.setState({displayState: "Show All"})}}>
-
-<p>Show All</p>
-</button>
+          <p>Show All</p>
+          </button>
 
         <button onClick={() => {this.setState({displayState: "frontEnd"})}} className = "p-2 mr-4 inline-flex px-3 py-2 rounded-lg border-white text-gray-700 border rounded-full hover:bg-gray-200 duration-300 transition-colors dark:text-white dark:border-23272f">
         <p>Front End</p>
