@@ -14,7 +14,7 @@ export default function About() {
           <br/>
           <p className="mb-8 leading-relaxed">
 
-          I'm a 4 + 1 graduate student majoring in Computer Science at Arizona State University. I'm passionate about Software Development and enjoy learning more about my field by developing applications that solve real world problems.
+          I'm a 4+1 graduate student majoring in Computer Science at Arizona State University. I'm passionate about Software Development and enjoy learning more about my field by developing applications that solve real world problems.
           </p>
           <p className="mb-8 leading-relaxed">
           Actively seeking Full Time Software Engineering opportunities for the Summer of 2025.
