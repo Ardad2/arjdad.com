@@ -95,7 +95,7 @@ export const projects = [
     subtitle: "Axure RP",
     description:
       "Redesigned Zara.com using AxureRP adhering to important UI and UX principles learnt in my Introduction to Human Computer Interactions class.",
-    image: "https://i.imgur.com/BKejqeG.png",
+    image: "https://i.imgur.com/V3QES14.png",
     link: "",
   },
   {
