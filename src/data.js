@@ -2,9 +2,9 @@ export const projects = [
   {
     type: "Mobile",
     title: "Hand Cricket",
-    subtitle: "Mobile",
+    subtitle: "Front End - React Native",
     description:
-      "A small mobile game based on a number based guessing game,'Hand Cricket', popular amongst children in India.",
+      "A small mobile game based on a number guessing game,'Hand Cricket', popular amongst children in India.",
     image: "https://i.imgur.com/bwaALbG.jpg",
     link: "",
   },
@@ -22,14 +22,14 @@ export const projects = [
     title: "DormBook",
     subtitle: "FullStack - MERN Stack",
     description:
-      "A full-stack social media website which allows the users to create authenticated accounts and submit and react to posts made by each other",
+      "A full-stack social media website which allows the users to create authenticated accounts and submit and react to posts made by each other.",
     image: "https://i.imgur.com/NXFD6eM.jpg",
     link: "",
   },
   {
     type: "frontEnd",
     title: "Old Personal Website",
-    subtitle: "Front End - HTML CSS JavaScript",
+    subtitle: "Front End - HTML + CSS + JavaScript",
     description:
       "Old version of my personal website, made using just HTML + CSS + JavaScript.",
     image: "https://i.imgur.com/SNiodml.png",
@@ -38,7 +38,7 @@ export const projects = [
   {
     type: "frontEnd",
     title: "Daily Task Tracker App",
-    subtitle: "Front End - React Redux",
+    subtitle: "Front End - React +  Redux",
     description:
       "A simple task tracker app helps keep track of the activity the user has done throughout the day along with the time spent on it and also allows user to categorize activities.",
     image: "https://i.imgur.com/TGmWgxW.png",
@@ -49,7 +49,7 @@ export const projects = [
     title: "Workout Timer App",
     subtitle: "Front End - JavaFX",
     description:
-      "An app to help in making exercise circuit intervals, made especially for at home workouts. Makes use of timers and alarms.",
+      "An app to help in making exercise circuit intervals, made especially for at-home workouts. Makes use of timers.",
     image: "https://i.imgur.com/CpT7hGw.png",
     link: "",
   },
@@ -58,7 +58,7 @@ export const projects = [
     title: "Office Automation System for Pediatric Doctor’s Office",
     subtitle: "Front End - JavaFX, Back End - MySQL",
     description:
-      "Software which allows medical workers to login and keep track of the data of all the patients and also interact with them. The patients can also login and interact with the medical workers..",
+      "Software which allows medical workers to login and keep track of the data of all the patients and also interact with them. The patients can also login and interact with the medical workers.",
     image: "https://i.imgur.com/7lQ7yhL_d.webp?maxwidth=760&fidelity=grand",
     link: "",
   },
@@ -67,16 +67,16 @@ export const projects = [
     title: "mySemesterPal",
     subtitle: "Swift + Google Firebase",
     description:
-      "Software which allows medical workers to login and keep track of the data of all the patients and also interact with them. The patients can also login and interact with the medical workers..",
+      "A mobile application that allows students to keep track of the courses they are taking in the semester along with their relevant homeworks and assignments.",
     image: "https://i.imgur.com/eTnmUCr.png",
     link: "",
   },
   {
-    type: "frontEnd",
+    type: "backEnd",
     title: "ASU Management Web Application",
     subtitle: "C# (.NET)",
     description:
-      "Software which allows medical workers to login and keep track of the data of all the patients and also interact with them. The patients can also login and interact with the medical workers..",
+      "ASP.NET web application with custom WCF services for tasks aimed at the convenience of students at ASU.",
     image: "https://i.imgur.com/YYVrLD9.png",
     link: "",
   },
@@ -85,7 +85,7 @@ export const projects = [
     title: "apple.com Prototype",
     subtitle: "Axure RP",
     description:
-      "Software which allows medical workers to login and keep track of the data of all the patients and also interact with them. The patients can also login and interact with the medical workers..",
+      "Apple's homepage designed as a prototype in Axure RP with complete functionality and links to the original page.",
     image: "https://i.imgur.com/dzEri0v.png",
     link: "",
   },
@@ -94,16 +94,16 @@ export const projects = [
     title: "Zara.com Redesign",
     subtitle: "Axure RP",
     description:
-      "Software which allows medical workers to login and keep track of the data of all the patients and also interact with them. The patients can also login and interact with the medical workers..",
+      "Redesigned Zara.com using AxureRP adhering to important UI and UX principles learnt in my Introduction to Human Computer Interactions class.",
     image: "https://i.imgur.com/BKejqeG.png",
     link: "",
   },
   {
-    type: "frontEnd",
+    type: "fullStack",
     title: "Property Management Application",
-    subtitle: "Java, JavaFX, PostgreSQL",
+    subtitle: "Front End - Java + JavaFX, Back End - PostgreSQL",
     description:
-      "Software which allows medical workers to login and keep track of the data of all the patients and also interact with them. The patients can also login and interact with the medical workers..",
+      "A property management system allowing managers to manage details regarding properties and units along with the leases. Also allows customers to make lease requests for new units and maintenance requests for their current unit. ",
     image: "https://i.imgur.com/cPm6EUm.png",
     link: "",
   },
