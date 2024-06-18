@@ -12,7 +12,7 @@ export default function Blog() {
   return (
     <main className="text-black dark:text-white bg-white-100 body-font dark:bg-23272f" >
       <Navbar />
-      <blogFront />
+      <About />
       <Contact />
     </main>
   );
