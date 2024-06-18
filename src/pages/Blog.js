@@ -2,8 +2,9 @@ import React, { useEffect } from "react";
 
 import Navbar from "../components/Navbar";
 import Contact from "../components/Contact";
-import About from '../components/About';
-import blogPlaceholder from "../components/blogPlaceholder";
+//import About from '../components/About';
+import About from '../components/blogFront';
+
 
 export default function Blog() {
 
@@ -13,7 +14,6 @@ export default function Blog() {
     <main className="text-black dark:text-white bg-white-100 body-font dark:bg-23272f" >
       <Navbar />
       <About />
-      <blogPlaceholder />
       <Contact />
     </main>
   );
