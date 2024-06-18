@@ -2,17 +2,18 @@ import React, { useEffect } from "react";
 
 import Navbar from "../components/Navbar";
 import Contact from "../components/Contact";
-import blogPlaceholder from '../components/About2';
-
+import About from '../components/About';
+import blogPlaceholder from "../components/blogPlaceholder";
 
 export default function Blog() {
 
   useEffect( () => {document.title = 'Arjun Dadhwal - Software Developer'}, []);
 
   return (
-    <main className="text-gray-400 bg-white-100 body-font " >
+    <main className="text-black dark:text-white bg-white-100 body-font dark:bg-23272f" >
       <Navbar />
-      <blogPlaceholder/>
+      <About />
+      <blogPlaceholder />
       <Contact />
     </main>
   );
