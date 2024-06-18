@@ -3,7 +3,6 @@ import React, { useEffect } from "react";
 import Navbar from "../components/Navbar";
 import Contact from "../components/Contact";
 //import About from '../components/About';
-import blogFront from '../components/blogFront';
 
 
 export default function Blog() {
