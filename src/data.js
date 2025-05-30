@@ -107,6 +107,24 @@ export const projects = [
     image: "https://i.imgur.com/cPm6EUm.png",
     link: "",
   },
+  {
+    type: "machineLearning",
+    title: "Rich Text Doc (PDF) RAG for Arxiv Papers    ",
+    subtitle: "Machine Learning",
+    description:
+      "Developed a specialized Retrieval-Augmented Generation system for academic papers from arXiv. Extracts text, images, tables, metadata, and formulas. Allows efficient retrieval and generation of information from given papers.",
+    image: "https://private-user-images.githubusercontent.com/44259833/393440387-83352892-19ab-4ae8-933a-6adcdc8ac092.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDg1ODI4MjUsIm5iZiI6MTc0ODU4MjUyNSwicGF0aCI6Ii80NDI1OTgzMy8zOTM0NDAzODctODMzNTI4OTItMTlhYi00YWU4LTkzM2EtNmFkY2RjOGFjMDkyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MzAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTMwVDA1MjIwNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZjOTdlY2FiZDNhODRkNzQ1Mjg1MjYwNjg0YjVkY2VmZmMxZWUxYjRmMGY1ZjYyNTEyNzQzY2M5OThjMjE5ZWEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.HgiRmh0x1_fTmII-Q6QirqTsblrdKevr-NjX3k9V-QI",
+    link: "",
+  },
+  {
+    type: "machineLearning",
+    title: "Predicting House Prices Using Advanced Regression Techniques (Kaggle)",
+    subtitle: "Data Science",
+    description:
+      "The goal was to create an effective predictive model that can accurately estimate house prices based on a variety of features such as house size, number of rooms, and location. Utilized and compared a series of regression models",
+    image: "https://i.imgur.com/TPmfTHk.png",
+    link: "",
+  },
 
 ];
 
