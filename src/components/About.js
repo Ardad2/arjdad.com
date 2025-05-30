@@ -14,10 +14,10 @@ export default function About() {
           <br/>
           <p className="mb-8 leading-relaxed">
 
-          I'm a 4+1 graduate student majoring in Computer Science at Arizona State University. I'm passionate about Software Development and enjoy learning more about my field by developing applications that solve real world problems.
+          I've recently graduated from Arizona State University with accelerated 4+1 Master’s degree in Computer Science with a specialization in Artificial Intelligene. I’m passionate about Artificial Intelligence and Software Development, and enjoy building applications that solve real-world problems.
           </p>
           <p className="mb-8 leading-relaxed">
-          Actively seeking Full Time Software Engineering opportunities for the Summer of 2025.
+          I'll be starting a PhD in Computer Science starting Fall 2025.
           </p>
                   <Link to="https://drive.google.com/file/d/1ASG6yt-iyPQWGUIb6FP3H_5rGuz8HQB9/view?usp=sharing" className = "p-2 mr-4 inline-flex px-3 py-2 rounded-lg border-white dark:border-23272f text-gray-700 border rounded-full bg-gray-200 duration-300 dark:text-white transition-colors" >
           Resume
