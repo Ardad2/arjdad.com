@@ -1,14 +1,5 @@
 export const projects = [
   {
-    type: "Mobile",
-    title: "Hand Cricket",
-    subtitle: "Front End - React Native",
-    description:
-      "A small mobile game based on a number guessing game,'Hand Cricket', popular amongst children in India.",
-    image: "https://i.imgur.com/bwaALbG.jpg",
-    link: "",
-  },
-  {
     type: "frontEnd",
     title: "Web Time Tracker Extension",
     subtitle: "Front End - JavaScript",
@@ -54,6 +45,15 @@ export const projects = [
     link: "",
   },
   {
+    type: "Mobile",
+    title: "Hand Cricket",
+    subtitle: "Front End - React Native",
+    description:
+      "A small mobile game based on a number guessing game,'Hand Cricket', popular amongst children in India.",
+    image: "https://i.imgur.com/bwaALbG.jpg",
+    link: "",
+  },
+  {
     type: "fullStack",
     title: "Office Automation System for Pediatric Doctor’s Office",
     subtitle: "Front End - JavaFX, Back End - MySQL",
@@ -63,7 +63,7 @@ export const projects = [
     link: "",
   },
   {
-    type: "fullStack",
+    type: "Mobile",
     title: "mySemesterPal",
     subtitle: "Swift + Google Firebase",
     description:
@@ -81,7 +81,7 @@ export const projects = [
     link: "",
   },
   {
-    type: "frontEnd",
+    type: "uiux",
     title: "apple.com Prototype",
     subtitle: "Axure RP",
     description:
@@ -90,7 +90,7 @@ export const projects = [
     link: "",
   },
   {
-    type: "frontEnd",
+    type: "uiux",
     title: "Zara.com Redesign",
     subtitle: "Axure RP",
     description:
