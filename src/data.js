@@ -134,7 +134,6 @@ export const skills = [
   frameworks: ["React", "Redux", "Express", "JavaFX", "React Native", "Node", "Android Studio", "Flutter", "Xcode", ".NET","Scikit-Learn", "Pandas", "NumPy", "PyTorch", "AWS CDK", "AWS Lambda", "Amazon S3"],
   tools: ["Postman", "Git", "Axure RP", "Selenium", "TensorFlow"],
   databasetech: ["SQL", "MySQL", "MongoDB", "Firebase", "SQLite", "PostgreSQL", "AWS DynamoDB"],
-  concepts: ["Software Development", "Data Structures and Algorithms", "Full Stack Web Development", "Mobile Application Development", "Artificial Intelligence", "Machine Learning", "Cloud Computing", "UI/UX Design", "Software Quality and Assurance Testing", "Distributed Software Development", "Information Assurance", "Theoretical Computer Science"],
-  others: ["Typing [130-150 WPM]"]
+  concepts: ["Software Development", "Data Structures and Algorithms", "Full Stack Web Development", "Mobile Application Development", "Artificial Intelligence", "Machine Learning", "Cloud Computing", "UI/UX Design", "Software Quality and Assurance Testing", "Distributed Software Development", "Information Assurance", "Theoretical Computer Science"]
   },
 ];
